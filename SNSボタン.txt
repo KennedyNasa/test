@@ -1,4 +1,4 @@
-FB like----------
+google +1----------(24X15,32X20,38X24,50X30)
 <!-- Place this tag where you want the +1 button to render. -->
 <div class="g-plusone" data-size="small" data-annotation="inline" data-width="300"></div>
 
@@ -13,9 +13,12 @@ FB like----------
   })();
 </script>
 
+
+FB-----(73px X 24px)
 iframe版
 <iframe src="//www.facebook.com/plugins/like.php?href={URLエンコードされたURL}&amp;send=false&amp;layout=box_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;width=70&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:70px; height:62px;" allowTransparency="true"></iframe>
 
+FB---おすすめ(73X28)
 
 twitter---------
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="{URL}" data-text="{ページタイトル}" data-via="{自分のアカウント}" data-lang="ja">ツイート</a>
@@ -34,3 +37,47 @@ twitter---------
 FB Share--------
 <a name="fb_share" type="box_count" share_url="{URL}">シェア</a>
 <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+
+
+mixi--------
+<a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="チェックキー" data-button="button-1">Check</a>
+<script type="text/javascript" src="http://static.mixi.jp/js/share.js"></script>
+
+---
+<div data-plugins-type="mixi-favorite" data-service-key="0123456789ABC" data-href="http://example.com/index.html" data-show-faces="true"></div>
+<script type="text/javascript">
+    (function(d) {
+        var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true;
+        s.src = '//static.mixi.jp/js/plugins.js#lang=ja';
+        d.getElementsByTagName('head')[0].appendChild(s);
+    })(document);
+</script>
+
+
+Gree-------
+<iframe src="http://share.gree.jp/share?url={RFC3986エンコードされたURL}&type=0&height=20" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe>
+
+
+EverNote----
+<script type="text/javascript" src="http://static.evernote.com/noteit.js"></script>
+<a href="#" onclick="Evernote.doClip({}); return false;"><img src="http://static.evernote.com/article-clipper.png" alt="Clip to Evernote" /></a>
+
+
+Tumblr「Share on Tumblr」-------
+<a href="http://www.tumblr.com/share/link?url={URLエンコードされたURL}&name={URLエンコードされたページタイトル}&description={URLエンコードされた概要}" title="Share on Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;">Share on Tumblr</a>
+<script type="text/javascript" src="http://platform.tumblr.com/v1/share.js"></script>
+
+
+Pinterest「Pin it」---------
+<a href="http://pinterest.com/pin/create/button/?url={URLエンコードされたページURL}&media={URLエンコードされた画像URL}&description={URLエンコードされた概要}" class="pin-it-button" count-layout="horizontal">Pin It</a>
+<script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
+
+
+
+はてなブックマーク「B!」-----
+<a href="http://b.hatena.ne.jp/entry/{ページURL}" class="hatena-bookmark-button" data-hatena-bookmark-title="{ページタイトル}" data-hatena-bookmark-layout="vertical" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button_wo_al.js" charset="utf-8" async="async"></script>
+
+
+
+

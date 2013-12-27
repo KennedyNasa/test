@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SNS button TEST</title>
+</head>
+
+<body>
+<h1>SNS button TEST</h1>
+
+<h2>google +1</h2>
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="small" data-annotation="inline" data-width="300"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'ja'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<h2>facebook</h2>
+<h3>like:iframe版</h3>
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3a%2f%2fhaneishi%2ecom&amp;send=false&amp;layout=box_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;width=70&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:70px; height:62px;" allowTransparency="true"></iframe>
+
+<h3>like:html5</h3>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=237739609629012";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="http://haneishi.com" data-width="300" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
+
+
+<h2>mixi</h2>
+<a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="チェックキー" data-button="button-1">Check</a>
+<script type="text/javascript" src="http://static.mixi.jp/js/share.js"></script>
+
+<h2>Gree</h2>
+<iframe src="http://share.gree.jp/share?url=http%3a%2f%2fhaneishi%2ecom&type=0&height=20" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe>
+
+
+<h2>EverNote</h2>
+<script type="text/javascript" src="http://static.evernote.com/noteit.js"></script>
+<a href="#" onclick="Evernote.doClip({}); return false;"><img src="http://static.evernote.com/article-clipper.png" alt="Clip to Evernote" /></a>
+
+
+<h2>Tumblr「Share on Tumblr」</h2>
+<a href="http://www.tumblr.com/share/link?url=http%3a%2f%2fhaneishi%2ecom&name=titleTest&description=descriptionTest" title="Share on Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;">Share on Tumblr</a>
+<script type="text/javascript" src="http://platform.tumblr.com/v1/share.js"></script>
+
+<h2>Pinterest「Pin it」</h2>
+<a href="http://pinterest.com/pin/create/button/?url={URLエンコードされたページURL}&media={URLエンコードされた画像URL}&description={URLエンコードされた概要}" class="pin-it-button" count-layout="horizontal">Pin It</a>
+<script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
+
+
+<h2>はてなブックマーク「B!」</h2>
+<a href="http://b.hatena.ne.jp/entry/{ページURL}" class="hatena-bookmark-button" data-hatena-bookmark-title="{ページタイトル}" data-hatena-bookmark-layout="vertical" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button_wo_al.js" charset="utf-8" async="async"></script>
+
+</body>
+</html>
